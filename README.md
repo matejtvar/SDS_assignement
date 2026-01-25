@@ -1,5 +1,5 @@
 # SDS_assignement
-## Scale dependence and temporal stability of NDVI–species richness relationships in North American breeding birds
+## Scale dependence of NDVI–species richness relationships in North American breeding birds
 
 This is a code for the final assignement of Spatial Data Science for Social Geography course (see:https://martinfleischmann.net/sds/).
 
