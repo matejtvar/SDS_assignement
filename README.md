@@ -1,7 +1,7 @@
 # SDS_assignement
 ## Scale dependence of NDVI–species richness relationships in North American breeding birds
 
-This is a code for the final assignement of Spatial Data Science for Social Geography course (see:https://martinfleischmann.net/sds/).
+This is a code for the final assignement of Spatial Data Science for Social Geography course (see: https://martinfleischmann.net/sds/).
 
 This project examines how spatial variation in vegetation productivity and geographic location predict observed bird species richness across the contiguous United States. Using Breeding Bird Survey data from 2018 aggregated to multiple equal-area grid resolutions, I apply Random Forest regression to assess scale-dependent relationships and spatial generalization. The analysis focuses on methodological challenges related to spatial aggregation, sampling bias, and non-linear modelling.
 
@@ -14,7 +14,7 @@ Datasets used:
 - Terra/MODIS (for NDVI)
 - States boundaries
 
-Grid size: H3 indexes resolutions 2, 3 and 4
+Grid size: H3 indexes resolutions 3, 4, 5 (see: https://h3geo.org/docs/core-library/restable/#cell-areas)
 
 Sampling controls and spatial predictors:
 - latitude (cell centroid)
