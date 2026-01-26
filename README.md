@@ -1,41 +1,24 @@
 # SDS_assignement
-## Scale dependence of NDVI–species richness relationships in North American breeding birds
+## Environmental predictors of bird species richness across the United States: a route-based spatial analysis with a hexagonal grid comparison
 
 This is a code for the final assignement of Spatial Data Science for Social Geography course (see: https://martinfleischmann.net/sds/).
 
-This project examines how spatial variation in vegetation productivity and geographic location predict observed bird species richness across the contiguous United States. Using Breeding Bird Survey data from 2018 aggregated to multiple equal-area grid resolutions, I apply Random Forest regression to assess scale-dependent relationships and spatial generalization. The analysis focuses on methodological challenges related to spatial aggregation, sampling bias, and non-linear modelling.
+A route-based analysis of bird species richness across the contiguous United States, using BBS routes as the observational units and environmental predictors summarized along each route.
 
-Area of interest: US
 
-Temporal scope: 2018
+Species richness as a key biodiversity metric
 
-Datasets used: 
-- BBS (for species richness): number of unique bird species observed in each grid cell computed by aggregating BBS routes intersecting each cell
-- Terra/MODIS (for NDVI)
-- States boundaries
+Environmental gradients shaping bird diversity (productivity, topography, latitude)
 
-Grid size: H3 indexes resolutions 3, 4, 5 (see: https://h3geo.org/docs/core-library/restable/#cell-areas)
+Importance of spatial scale and spatial structure in ecological analyses
 
-Sampling controls and spatial predictors:
-- latitude (cell centroid)
-- longitude (cell centroid)
-- mean elevation
-- elevation sd
-- n_routes
-- routegrid_ratio
 
-$\text{route coverage} = \frac{\text{total BBS route length inside grid cell (km)}}{\text{grid cell area (km}^2\text{)} }$
+Research objectives
 
-Spatial aggregation
+Quantify spatial variation in bird species richness across the contiguous United States using BBS routes.
 
-- BBS routes intersected with equal-area grid cells
-- Species richness computed as unique species per cell
-- NDVI summarized as mean value per cell
+Assess how NDVI and elevation predict species richness at the route level.
 
-Spatial autocorrelation
+Evaluate spatial autocorrelation in species richness and model residuals.
 
-Modelling
-
-- Random Forest regression fitted separately for each grid resolution: randomForest(richness ~ ndvi_mean + elev_mean + elev_sd + lat + lon + n_routes + routegrid_ratio)
-- Model performance evaluated using cross-validation
-- Residuals mapped to identify spatial structure
+Explore how spatial aggregation (hexagonal grid) alters richness patterns in a regional case study (e.g. California).
