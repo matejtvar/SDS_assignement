@@ -1,5 +1,5 @@
 # SDS_assignement
-## Environmental predictors of bird species richness across the United States: a route-based spatial analysis
+## Environmental and spatial predictors of bird species richness across the United States: a route-based spatial analysis
 
 This is a code for the final assignement of Spatial Data Science for Social Geography course (see: https://martinfleischmann.net/sds/).
 
