@@ -16,7 +16,11 @@ Assess how NDVI and spatial factors predict species richness at the route level.
 
 ### Data sources
 BBS data: https://www.sciencebase.gov/catalog/item/52b1dfa8e4b0d9b325230cd9
+
 BBS routes geometry: https://earthworks.stanford.edu/catalog/stanford-vy474dv5024
+
 NDVI: https://neo.gsfc.nasa.gov/view.php?datasetId=MOD_NDVI_M&year=2017
+
 elevation: https://earthworks.stanford.edu/catalog/stanford-zz186ss2071
+
 US boundaries: https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
