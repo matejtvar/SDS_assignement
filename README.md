@@ -13,5 +13,3 @@ Quantify spatial variation in bird species richness across the contiguous United
 Evaluate spatial autocorrelation in species richness and model residuals.
 
 Assess how NDVI and spatial factors predict species richness at the route level.
-
-Try to use geographicaly weighted regression.
