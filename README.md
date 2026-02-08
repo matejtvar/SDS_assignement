@@ -11,7 +11,7 @@ A route-based analysis of bird species richness across the contiguous United Sta
 
 ### Questions
 - How vegetation quality/density/heterogeneity preditcs bird diversity across United States?
-- How spatial predictors alone explains the patterns of speceis richness in North American birds?
+- How spatial predictors alone explains the patterns of species richness in North American birds?
 
 
 ### Tasks to cover
