@@ -1,5 +1,4 @@
 # SDS_assignement
-## Matěj Tvarůžka
 
 
 ## **Environmental and spatial predictors of bird diversity across the United States: a route-based spatial analysis**
