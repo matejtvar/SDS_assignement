@@ -4,7 +4,7 @@
 ## **Environmental and spatial predictors of bird diversity across the United States: a route-based spatial analysis**
 
 
-This is a code for the final assignement of Spatial Data Science for Social Geography course (see: https://martinfleischmann.net/sds/).
+This is a code for the final assignement of [Spatial Data Science for Social Geography course](https://martinfleischmann.net/sds/)
 
 A route-based analysis of bird species richness across the contiguous United States, using The North American Breeding Bird Survey (BBS) data - routes as the observational units and combination of environmental (NDVI) and spatial (elevation, LONG, LAT) predictors.
 
